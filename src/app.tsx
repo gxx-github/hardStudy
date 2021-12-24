@@ -7,6 +7,6 @@ export function onRouteChange({ matchedRoutes, location }: any) {
   }
   // // 首页重定向到/postskill
   if (location.pathname === "/") {
-    history.replace("/login")
+    history.replace("/study")
   }
 }
